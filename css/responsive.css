@@ -1,0 +1,129 @@
+
+
+@media(max-width: 991px){
+	.event-section .event-item {
+    	flex: 0 0 50%;
+    	max-width: 50%;
+	}
+	.kado-section .event-item {
+    flex: 0 0 50%;
+    max-width: 50%;
+	}
+}
+
+@media(max-width:  767px){
+	.header .logo {
+		padding: 8px 15px;
+	}
+	.header .hamburger-btn{
+		display: flex;
+		margin-right: 15px;
+	}
+	.header .nav{
+		flex: 0 0 100%;
+		max-width: 100%;
+		background-color: solid transparent;
+		border-top: 1px solid#cccccc;
+		display: none;
+	}
+	.header .nav ul li{
+		display: block;
+		margin-left: 0;
+	}
+	.header .nav ul li a{
+		color: #555555;
+		padding: 0 0;
+	}
+	.home-section .home-content h1{
+		font-size: 60px;
+	}
+	.couple-section .couple{
+		flex: 0 0 100%;
+		max-width: 100%;
+		padding: 0 15px;
+	}
+	.couple-section .couple:nth-child(2){
+		margin-top: 50px;
+	}
+	.couple-section .couple:nth-child(2):before{
+		content: none;
+	}
+	.couple-section .couple i.fa-heart{
+		display: none;
+	}
+	.couple-section .social-links{
+		padding: 20px 0 30px;
+	}
+	.story-section .story-img{
+		margin-top: 20px;
+	}
+	.story-section .story-content:before{
+		left: 20px;
+	}
+	.story-section .story-item i{
+		margin-left: 0px;
+		left: 5px;
+	}
+	.event-section .event-item:nth-child(2) {
+		transform: translateY(0px);
+	}
+	.ustad-section .ustad-item,
+	.kado-section .event-item,
+	.event-section .event-item ,
+	.story-section .story-text, .story-section .story-img{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.event-section .middle h1{
+		font-size: 55px;
+
+	}
+	.event-section .middle p{
+		font-size: 25px;
+	}
+	.story-section .story-item:nth-child(odd) .story-text{
+		padding: 0 15px 0 50px;
+		text-align: left;
+	}
+	.story-section .story-item:nth-child(even) .story-img{
+		padding: 0 15px 0 50px;
+	}
+	.story-section .story-item:nth-child(even) .story-text,
+	.story-section .story-item:nth-child(odd) .story-img {
+		padding: 0 15px 0 50px;
+	}
+	.kado-section h2 {
+    font-size: 15px;
+	}
+	.kado-section .event-item-inner input{
+		display: block;
+		margin: auto;
+	}
+	.kado-section .event-item-inner img{
+		display: block;
+		margin: auto;
+	}
+}
+
+@media(max-width: 574px){
+	.rsvp-section .form{
+		padding: 60px 0px;
+	}
+	.home-section .home-content h1{
+		font-size: 50px;
+	}
+	.rsvp-section .form .input-group.w50{
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+	.footer .footer-content .couple-name{
+		width: 290px;
+		height: 290px;
+	}
+	.footer .footer-content .couple-name h2{
+		font-size: 32px;
+	}
+	.footer .footer-content h1{
+		font-size: 20px;
+	}
+}
